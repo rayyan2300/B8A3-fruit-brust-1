@@ -183,7 +183,7 @@
 <button class="text-red-600" onclick="my_modal_1.showModal()">Details</button>
 <dialog id="my_modal_1" class="modal">
   <form method="dialog" class="modal-box">
-    <div class="flex text-center justify-center"><img src="images/fruit8.png" alt=""></div>
+    <div class="flex text-center justify-center"><img class="w-52" src="images/fruit8.png" alt=""></div>
     <h3 class="font-bold text-lg">Red Dragon</h3>
     <p class="py-4">
       Professional employees are there for you to pick the most amazing and fresh fruits.
@@ -199,10 +199,12 @@
           <input type="radio" name="rating-9" class="mask mask-star-2" />
         </div>
       </div>
-    <div class="modal-action">
+    <div class="modal-action flex justify-center">
       <!-- if there is a button in form, it will close the modal -->
-      <button class="btn">Close</button>
-      <button class="btn">Buy Now</button>
+      
+<button class="btn btn-outline btn-error">Close</button>
+<button class="btn btn-error text-slate-100">Buy Now</button>
+      
     </div>
   </form>
 </dialog>
